@@ -1,0 +1,10 @@
+C:\Users\WattGuy\source\repos\Ciphers\Ciphers\obj\Debug\Ciphers.csprojResolveAssemblyReference.cache
+C:\Users\WattGuy\source\repos\Ciphers\Ciphers\obj\Debug\Ciphers.Form1.resources
+C:\Users\WattGuy\source\repos\Ciphers\Ciphers\obj\Debug\Ciphers.Properties.Resources.resources
+C:\Users\WattGuy\source\repos\Ciphers\Ciphers\obj\Debug\Ciphers.csproj.GenerateResource.Cache
+C:\Users\WattGuy\source\repos\Ciphers\Ciphers\obj\Debug\Ciphers.csproj.CoreCompileInputs.cache
+C:\Users\WattGuy\source\repos\Ciphers\Ciphers\bin\Debug\Шифры.exe
+C:\Users\WattGuy\source\repos\Ciphers\Ciphers\bin\Debug\Шифры.pdb
+C:\Users\WattGuy\source\repos\Ciphers\Ciphers\obj\Debug\Ciphers.AboutBox1.resources
+C:\Users\WattGuy\source\repos\Ciphers\Ciphers\obj\Debug\Шифры.exe
+C:\Users\WattGuy\source\repos\Ciphers\Ciphers\obj\Debug\Шифры.pdb
