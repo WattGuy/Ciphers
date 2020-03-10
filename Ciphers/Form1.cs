@@ -16,7 +16,7 @@ namespace Ciphers
         public static string transDesc = "Переворачивает каждое введённое вами слово задом наперёд";
         public static string cesarDesc = "Сдвиг влево или направо на N позиций в алфавите";
         public static string binaryDesc = "Преобразовывает ваш текст в набор из 0 и 1";
-        public static string atbashDesc = "Замена n-й буквы алфавита буквой с номером m − n + 1, где m — число букв в алфавите";
+        public static string atbashDesc = "Кодирует с перевернутым алфавитом";
         public static string swordDesc = "Выбирается кодовое слово, которое пишется впереди, затем выписываются остальные буквы алфавита в своем порядке";
         public static string a1z26Desc = "Каждая буква заменяется порядковым номером в алфавите";
 
@@ -138,8 +138,6 @@ namespace Ciphers
 
                         } else Convert.ToInt32("" + ((int)temp).ToString() + s[i].ToString());
 
-                        Console.WriteLine("хай1 " + temp);
-
                         digiting = true;
                         continue;
 
@@ -155,12 +153,10 @@ namespace Ciphers
 
                             }
                             else temp = Convert.ToInt32("" + ((int)temp).ToString() + s[i].ToString());
-                            Console.WriteLine("нармальна " + temp);
                             continue;
 
                         }
                         else {
-                            Console.WriteLine("выкачуем " + temp);
 
                             if (temp - 1 <= alphabet.Length - 1) {
 
@@ -184,8 +180,6 @@ namespace Ciphers
                 }
 
                 if (digiting && temp != null) {
-
-                    Console.WriteLine("посмертно " + temp);
 
                     if (temp - 1 <= alphabet.Length - 1)
                     {
@@ -803,7 +797,15 @@ namespace Ciphers
             {
                 data = data.Replace(" ", "");
                 Byte[] bytes = Encoding.UTF8.GetBytes(data.ToCharArray());
-                return string.Join("", bytes.Select(b => Convert.ToString(b, 2)));
+                StringBuilder sb = new StringBuilder();
+
+                foreach (Byte b in bytes) {
+
+                    sb.Append(Convert.ToString(b, 2));
+
+                }
+
+                return sb.ToString();
             }
             catch (Exception e) { }
 

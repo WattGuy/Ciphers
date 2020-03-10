@@ -7,3 +7,4 @@ C:\Users\WattGuy\source\repos\Ciphers\Ciphers\obj\Release\Ciphers.csproj.CoreCom
 C:\Users\WattGuy\source\repos\Ciphers\Ciphers\obj\Release\Шифры.exe
 C:\Users\WattGuy\source\repos\Ciphers\Ciphers\obj\Release\Шифры.pdb
 C:\Users\WattGuy\source\repos\Ciphers\Ciphers\obj\Release\Ciphers.csprojResolveAssemblyReference.cache
+C:\Users\WattGuy\source\repos\Ciphers\Ciphers\bin\Release\Шифры.exe.config
